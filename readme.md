@@ -93,7 +93,7 @@ python extract_read_info.py --inbed {bed} --inbam {sort_bam} --out {read_info}
 
 
 ## 2. Analyzing monosome~polysome *n+* by jupyterlab
-- `run Step1.ipynb in the jupyterlab enviroment`
+- `run main_jupyter_lab_code.ipynb in the jupyterlab enviroment`
 
 ___
 ## Detailed information about this project
