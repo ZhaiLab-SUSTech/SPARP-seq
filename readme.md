@@ -1,7 +1,7 @@
-# pipeline of analyzing SPARP-seq 
+# pipeline of analyzing Ribo-nano
 
 ___
-![Alt text](image.png)
+
 
 ___
 ## 0.Preparation
@@ -13,13 +13,13 @@ Python 3.8.18 and above
 
 - recommand using conda to install all packages
 
-  - `conda create -n SPARP_env python==3.8`
-  - `conda activate SPARP_env`
+  - `conda create -n Ribo_nano_env python==3.8`
+  - `conda activate Ribo_nano_env`
   - `conda install -c bioconda -c conda-forge matplotlib scipy numpy pandas pysam seaborn cycler bowtie cutadapt hdf5 htseq jedi samtools bedtools star subread gffread sh adjusttext bzip2 pigz six tqdm svg-stack ` 
 
 
 
-- This command will create a environment: `SPARP_env`
+- This command will create a environment: `Ribo_nano_env`
 - FLEPSeq2 environment is required
   https://github.com/ZhaiLab-SUSTech/flep_seq2_polya_analysis
 
